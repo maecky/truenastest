@@ -79,8 +79,8 @@ persistence:
   mountPath: /var/lib/influxdb2
 
 service:
-  type: ClusterIP
-  port: 8088
+  type: NodePort
+  port: 8086
   targetPort: 8086
   annotations: {}
   labels: {}
